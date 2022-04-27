@@ -25,11 +25,11 @@ De plus la création de compte semble vulnérable.
 
 après la création du compte on est rediriger vers un endpoint nous informant de l'indisponibilité du site 
 
-!()[https://github.com/Yo-0x/MidNightFlagCtf/blob/main/Pasted%20image%2020220404231904.png?raw=true]
+![](https://github.com/Yo-0x/MidNightFlagCtf/blob/main/Pasted%20image%2020220404231904.png?raw=true)
 
 Pour y voir plus claire, il est nécessaire de capturer la requête.
 
-!()[https://github.com/Yo-0x/MidNightFlagCtf/blob/main/Pasted%20image%2020220404190139.png?raw=true]
+![](https://github.com/Yo-0x/MidNightFlagCtf/blob/main/Pasted%20image%2020220404190139.png?raw=true)
 
 Après capture de la requête nous pouvons observer que les données sont passé au format xml.
 
@@ -40,9 +40,9 @@ si on tente une deuxième fois, un message d'erreur apparaît en nous infomant q
 tentons alors une XXE : 
 
 
-!()[https://github.com/Yo-0x/MidNightFlagCtf/blob/main/Pasted%20image%2020220404193354.png?raw=true]
+![](https://github.com/Yo-0x/MidNightFlagCtf/blob/main/Pasted%20image%2020220404193354.png?raw=true)
 
-!)[https://github.com/Yo-0x/MidNightFlagCtf/blob/main/Pasted%20image%2020220404193405.png?raw=true]
+![](https://github.com/Yo-0x/MidNightFlagCtf/blob/main/Pasted%20image%2020220404193405.png?raw=true)
 
 Nous avons récupéré le code source de l'application.
 
